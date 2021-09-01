@@ -1,0 +1,21 @@
+footer {
+  bottom: 0;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer a {
+  color: #333;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
+
+footer img {
+  width: 30px;
+  height: 30px;
+}
+/*# sourceMappingURL=estilos.css.map */

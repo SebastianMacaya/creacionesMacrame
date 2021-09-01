@@ -1,0 +1,19 @@
+footer {
+bottom: 0;
+    ul {
+        list-style: none;
+
+        }
+        a {
+            color: #333;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+
+    img {
+        width: 30px;
+        height: 30px;
+    }
+}

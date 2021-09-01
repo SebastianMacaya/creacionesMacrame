@@ -1,0 +1,12 @@
+{
+    "version": 3,
+    "mappings": "AGAA,AAAA,MAAM,CAAC;EACP,MAAM,EAAE,CAAC;CAiBR;;AAlBD,AAEI,MAFE,CAEF,EAAE,CAAC;EACC,UAAU,EAAE,IAAI;CAEf;;AALT,AAMQ,MANF,CAME,CAAC,CAAC;EACE,KAAK,EAAE,IAAI;CAKd;;AAZT,AASY,MATN,CAME,CAAC,AAGI,MAAM,CAAC;EACJ,eAAe,EAAE,IAAI;CACxB;;AAXb,AAcI,MAdE,CAcF,GAAG,CAAC;EACA,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CACf",
+    "sources": [
+        "../Sass/estilos.scss",
+        "../Sass/_home.scss",
+        "../Sass/_fonts.scss",
+        "../Sass/_quienesSomos.scss"
+    ],
+    "names": [],
+    "file": "estilos.css"
+}
