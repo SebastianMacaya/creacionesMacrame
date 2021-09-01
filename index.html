@@ -9,8 +9,94 @@
     <link rel="stylesheet" href="CSS/estilos.css" />
   </head>
   <body>
-    <h1>hola</h1>
+    <!-- ------------------------------- Navbar -------------------------------- -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand logo text-center" href="#">LOGO</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto w-100 justify-content-end">
+          <li class="nav-item active">
+            <a class="nav-link" href="#"
+              >INICIO <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/quienesSomos.html">QUIENES SOMOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/catalogo.html">CATALOGO</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="pages/contacto.html">CONTACTO</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="BUSCAR"
+            aria-label="Search"
+          />
+        </form>
+      </div>
+    </nav>
+    <!-- ----------------------------- fin navbar ------------------------------ -->
+    <main>
+      <!-- --------------------------- inicio carousel --------------------------- -->
+       <div class="carouselMain"> 
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-ride="carousel"
+      >
+        <ol class="carousel-indicators">
+          <li
+            data-target="#carouselExampleIndicators"
+            data-slide-to="0"
+            class="active"
+          ></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img
+              src="https://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png"
+              class="d-block w-100 "
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="https://rdironworks.com/wp-content/uploads/2017/12/dummy-200x200.png"
+              class="d-block w-100"
+              alt="..."
+            />
+          </div>
+        </div>
+        </div>
+      <!-- ---------------------------- fin carousel ----------------------------- -->
+    </main>
+
+    <!-- ------------------------------ bootstrap ------------------------------ -->
     <script src="bootstrap/js/jquery-3.5.1.slim.min.js"></script>
     <script src="bootstrap/js/bootstrap.bundle.min.js"></script>
   </body>

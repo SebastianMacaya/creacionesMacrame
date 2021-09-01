@@ -1,12 +1,1 @@
-{
-    "version": 3,
-    "mappings": "AGAA,AAAA,MAAM,CAAC;EACP,MAAM,EAAE,CAAC;CAiBR;;AAlBD,AAEI,MAFE,CAEF,EAAE,CAAC;EACC,UAAU,EAAE,IAAI;CAEf;;AALT,AAMQ,MANF,CAME,CAAC,CAAC;EACE,KAAK,EAAE,IAAI;CAKd;;AAZT,AASY,MATN,CAME,CAAC,AAGI,MAAM,CAAC;EACJ,eAAe,EAAE,IAAI;CACxB;;AAXb,AAcI,MAdE,CAcF,GAAG,CAAC;EACA,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;CACf",
-    "sources": [
-        "../Sass/estilos.scss",
-        "../Sass/_home.scss",
-        "../Sass/_fonts.scss",
-        "../Sass/_quienesSomos.scss"
-    ],
-    "names": [],
-    "file": "estilos.css"
-}
+{"version":3,"sourceRoot":"","sources":["../Sass/_home.scss","../Sass/_quienesSomos.scss"],"names":[],"mappings":"AAAA;EACE;EACA;EACA;;;AAGF;EACE;EACA;;;AAGF;EACE;EACA;;;AAEF;EACE;EACA;EACA;EACA;EACA;EACA;EACA;EACA;;AAEA;EACE;EACA;EAEA;;;AC7BJ;EACA;;AACI;EACI;;AAGA;EACI;;AAEA;EACI;;AAIZ;EACI;EACA","file":"estilos.css.map"}
