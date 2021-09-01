@@ -1,0 +1,31 @@
+.logo {
+  width: 168px;
+  height: 48px;
+  background-color: #c4c4c4;
+}
+
+.navbar-nav {
+  font-size: 15px;
+  line-height: 14px;
+}
+
+.carouselMain {
+  width: auto;
+  height: 774px;
+}
+
+.carousel-indicators {
+  left: auto;
+  justify-content: auto;
+  margin: 0;
+  padding: 0;
+  flex-direction: column;
+  list-style: none;
+  right: 0px;
+  top: 0%;
+}
+.carousel-indicators li {
+  height: 20px;
+  width: 20px;
+  background-color: black;
+}/*# sourceMappingURL=estilos.css.map */
