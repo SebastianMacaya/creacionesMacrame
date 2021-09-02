@@ -4,8 +4,8 @@ header {
   color: #000000;
   line-height: 50%;
   letter-spacing: 0.2rem;
+  font-size: 12px;
   .navbar-nav {
-    font-size: 15px;
     line-height: 14px;
   }
   input {
@@ -15,6 +15,9 @@ header {
     position: absolute;
     right: 2%;
   }
+  input[type="search"] {
+    font-size: 12px;
+  }
   li {
     padding: 0 1.5rem;
     
@@ -23,7 +26,7 @@ header {
   align-items: center;
   content: "";
   display: block;
-  margin: auto; 
+  margin: auto;
   padding-top: 10px;
   border-bottom: 1px solid black;
   }
