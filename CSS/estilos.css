@@ -55,6 +55,7 @@ header a.borde::after {
 .carousel-indicators li {
   height: 20px;
   width: 20px;
+  border-radius: 50%;
   background-color: black;
 }
 
@@ -81,6 +82,9 @@ footer img {
   height: 30px;
 }
 
+.formMain {
+  margin-top: 2%;
+}
 .formMain input {
   width: 90%;
   background-color: #ffeef1;
@@ -93,12 +97,11 @@ footer img {
   margin-left: 50%;
   margin-top: 5%;
 }
-
-label {
+.formMain label {
   display: inline-block;
+  letter-spacing: 0.2rem;
 }
-
-textarea {
+.formMain textarea {
   display: block;
   background-color: #ffeef1;
   resize: none;
