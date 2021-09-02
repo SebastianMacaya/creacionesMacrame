@@ -9,18 +9,23 @@ header {
   color: #000000;
   line-height: 50%;
   letter-spacing: 0.2rem;
+  font-size: 12px;
 }
 header .navbar-nav {
-  font-size: 15px;
   line-height: 14px;
 }
 header input {
   margin-left: 3.5rem;
 }
-header input[type=image] {
+header input[type="image"] {
   position: absolute;
   right: 2%;
 }
+
+header input[type="search"] {
+  font-size: 12px;
+}
+
 header li {
   padding: 0 1.5rem;
 }
@@ -56,7 +61,8 @@ header a.borde::after {
 }
 
 footer {
-  background-color: #F7F5F2;
+  background-color: #f7f5f2;
+  font-size: 12px;
   min-height: 151px;
   align-items: center;
   margin-top: auto;
@@ -106,4 +112,4 @@ body {
 
 .fondoNavFoot {
   background-color: #f7f5f2;
-}/*# sourceMappingURL=estilos.css.map */
+} /*# sourceMappingURL=estilos.css.map */
