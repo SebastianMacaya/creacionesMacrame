@@ -38,9 +38,7 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="quienesSomos.html"
-                >QUIÉNES SOMOS</a
-              >
+              <a class="nav-link" href="quienesSomos.html">QUIÉNES SOMOS</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="catalogo.html">CATÁLOGO</a>
@@ -51,7 +49,13 @@
           </ul>
           <form class="form-inline my-2 my-lg-0">
             <input
-              class="form-control mr-sm-2 buscar border border-secondary rounded-0"
+              class="
+                form-control
+                mr-sm-2
+                buscar
+                border border-secondary
+                rounded-0
+              "
               type="search"
               placeholder="BUSCAR"
               aria-label="Search"
@@ -66,6 +70,49 @@
       </nav>
     </header>
     <!-- ----------------------------- fin navbar ------------------------------ -->
+
+    <p>
+      Completá el siguiente formulario para recibir información sobre cómo
+      comprar nuestros productos.
+    </p>
+    <p>
+      También podés enviarnos un mail a XXXXX@XXXXXX.com o un mensaje de
+      WhatsApp al número +54 11 0000 0000
+    </p>
+    <!-- ------------------------- formulario contacto ------------------------- -->
+    <div class="d-flex">
+      <form action="" class="d-flex formMain">
+        <div>
+          <div class="flex-column">
+            <div class="form-group">
+              <label for="name">Nombre y apellido *</label>
+              <input type="text" id="name" autocomplete="off" required />
+            </div>
+            <div class="form-group">
+              <label for="mail">Mail*</label>
+              <input type="text" id="mail" autocomplete="off" required />
+            </div>
+            <div class="form-group">
+              <label for="tel">Telefono *</label>
+              <input type="text" id="tel" required />
+            </div>
+            <p>Los campos marcados con * son obligatorios</p>
+          </div>
+        </div>
+        <div>
+          <div>
+            <label for="msj">Mensaje</label>
+            <textarea id="msj" cols="20" rows="10" required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-dark">Enviar</button>
+        </div>
+      </form>
+      <div class="w-50">
+        <img src="/imagenes/logo/LOGO-CONTACTO.jpg" alt="logo amaru 2" />
+      </div>
+    </div>
+    <!-- ----------------------- fin formulario contacto ----------------------- -->
     <!-- ------------------------------- Footer -------------------------------- -->
     <footer class="d-flex justify-content-between fondoNavFoot">
       <div>
