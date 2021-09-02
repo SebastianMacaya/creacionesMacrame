@@ -17,6 +17,15 @@ header {
   }
   li {
     padding: 0 1.5rem;
+    
+  }
+  a.borde::after {
+  align-items: center;
+  content: "";
+  display: block;
+  margin: auto; 
+  padding-top: 10px;
+  border-bottom: 1px solid black;
   }
 }
 
