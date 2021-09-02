@@ -21,6 +21,10 @@ header input[type="image"] {
   right: 2%;
 }
 
+header li {
+  padding: 0 3rem;
+}
+
 /* --------------------------------- Slider --------------------------------- */
 .carouselMain {
   width: auto;
