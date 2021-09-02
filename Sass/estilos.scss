@@ -1,3 +1,15 @@
 @import "fonts";
 @import "home";
 @import "quienesSomos";
+
+
+
+html {
+    height: 100%
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%
+}

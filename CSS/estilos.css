@@ -1,16 +1,21 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap");
+body {
+  font-family: "Raleway", sans-serif;
+}
+
 header {
   background-color: #f7f5f2;
   min-height: 108px;
   color: #000000;
   line-height: 50%;
-  font-family: "Raleway", sans-serif;
 }
+
 header .navbar-nav {
   font-size: 15px;
   line-height: 14px;
 }
-header input[type=image] {
+
+header input[type="image"] {
   position: absolute;
   right: 2%;
 }
@@ -31,6 +36,7 @@ header input[type=image] {
   right: 0px;
   top: 0%;
 }
+
 .carousel-indicators li {
   height: 20px;
   width: 20px;
@@ -38,18 +44,37 @@ header input[type=image] {
 }
 
 footer {
-  bottom: 0;
+  background: #F7F5F2;
+  min-height: 151px;
+  align-items: center;
+  margin-top: auto;
+  letter-spacing: 50%;
 }
+
 footer ul {
   list-style: none;
 }
+
 footer a {
-  color: #333;
+  color: #000000;
 }
+
 footer a:hover {
   text-decoration: none;
 }
+
 footer img {
   width: 30px;
   height: 30px;
-}/*# sourceMappingURL=estilos.css.map */
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+/*# sourceMappingURL=estilos.css.map */

@@ -4,60 +4,74 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Amaru Macrame</title>
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="../CSS/estilos.css" />
   </head>
   <body>
-    <!-- ------------------------------- Navbar -------------------------------- -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand logo text-center" href="#">LOGO</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <header>
+      <!-- ------------------------------- Navbar -------------------------------- -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html"
+          ><img
+            class="img-fluid"
+            src="../imagenes/logo/LOGO-HOR.small.jpg"
+            alt="logo amaru"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto w-100 justify-content-end">
-          <li class="nav-item active">
-            <a class="nav-link" href="#"
-              >INICIO <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pages/quienesSomos.html">QUIENES SOMOS</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pages/catalogo.html">CATALOGO</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="pages/contacto.html">CONTACTO</a>
-          </li>
-        </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input
-            class="form-control mr-sm-2"
-            type="search"
-            placeholder="BUSCAR"
-            aria-label="Search"
-          />
-        </form>
-      </div>
-    </nav>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto w-100 justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html"
+                >INICIO <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="quienesSomos.html"
+                >QUIENES SOMOS</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="catalogo.html">CATALOGO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">CONTACTO</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="form-control mr-sm-2 buscar"
+              type="search"
+              placeholder="BUSCAR"
+              aria-label="Search"
+            />
+            <input
+              type="image"
+              src="../imagenes/utilities/lupa.png"
+              class="imagen de lupa"
+            />
+          </form>
+        </div>
+      </nav>
+    </header>
     <!-- ----------------------------- fin navbar ------------------------------ -->
     <div class="container-fluid justify-content-center">
       <div class="d-flex align-items-center row">
         <div class="col-12 col-xl-6">
           <img
             class="img-fluid"
-            src="https://aws.admagazine.com/prod/designs/v1/assets/767x384/76368.jpg"
+            src="../imagenes/qs.jpg"
             alt="nosotros"
           />
         </div>
@@ -73,10 +87,10 @@
             ipsum dolor sit amet consectetur adipisicing elit. Accusamus
             voluptatibus nam, obcaecati sunt in libero modi, laborum voluptatum
             alias perferendis molestiae doloribus tempore, eos iure esse illo
-            iusto recusandae id. Lorem ipsum dolor sit amet consectetur
+            iusto recusandae id. <b>Lorem ipsum dolor sit amet consectetur
             adipisicing elit. Explicabo debitis, quis omnis distinctio quasi et
             unde tempore eveniet quae aliquid sapiente quas, repellendus enim
-            deserunt pariatur quibusdam laudantium cupiditate laboriosam.
+            deserunt pariatur quibusdam laudantium cupiditate laboriosam.</b>
           </p>
           <p class="text-left">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et illum,
@@ -98,7 +112,7 @@
       </div>
     </div>
     <!-- ------------------------------- Footer -------------------------------- -->
-    <footer class="d-flex justify-content-between bg-light vw-100">
+    <footer class="d-flex justify-content-between bg-light">
       <div>
         <ul>
           <li><a href="#">QUIÉNES SOMOS</a></li>
@@ -110,11 +124,11 @@
         <p>SEGUINOS</p>
         <div>
           <a href="#"
-            ><img src="../imagenes/instagram.png" alt="instagram"
+            ><img src="../imagenes/utilities/instagram.png" alt="instagram"
           /></a>
           <a href="#"
             ><img
-              src="../imagenes/simbolo-de-la-aplicacion-de-facebook.png"
+              src="../imagenes/utilities/simbolo-de-la-aplicacion-de-facebook.png"
               alt="facebook"
           /></a>
         </div>
