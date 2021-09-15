@@ -27,7 +27,7 @@ items.addEventListener("click", (e) => {
 
 /* ------------ Traer productos (Reemplazo Js vanilla por Jquery) ----------- */
 const fetchData = async () => {
-  const URLGET = "../../data/lamparas.json";
+  const URLGET = "../data/lamparas.json";
   $.get(URLGET, async function (respuesta, estado) {
     if (estado === "success") {
       let misDatos = respuesta;
