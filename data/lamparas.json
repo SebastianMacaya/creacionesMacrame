@@ -1,27 +1,27 @@
 [
     {
-        "id": 1,
+        "id": "Lamparas 1",
         "title": "Lámpara de macrame",
         "price": 5000,
         "description": "Se utilizó hilo de polipropileno  color crudo.  Armazón de hierro.  Se utiliza nudo plano  y  sin cuentas  mide 50 cm. ",
         "thumbnailUrl": "http://drive.google.com/uc?export=view&id=1ghFJppyXKvjNoVqKYLwfARWHpclpffZ1"
     },
     {
-        "id": 2,
+        "id": "Lamparas 2",
         "title": "Lámpara de macrame",
         "price": 5000,
         "description": " Mide 50 cm,  con armazón de hierro pintado y soldado.  Realizado con hilo color crudo  y color fucsia.  Combinado.  Se utiliza nudo plano.",
         "thumbnailUrl": "http://drive.google.com/uc?export=view&id=1v_wDT2lj2em-CFBg0wXovnPUkfYoiOsH"
     },
     {
-        "id": 3,
+        "id": "Lamparas 3",
         "title": "Lámpara de macrame",
         "price": 5000,
         "description": "Realizado con hilo de polipropileno en color crudo.  Con cuenta de madera.  Armazón de hierro pintado y soldado.  Se utiliza nudo plano  y nudo feston. Mide 50cm. ",
         "thumbnailUrl": "http://drive.google.com/uc?export=view&id=1qtW5ZpMMa8TiimkEA9FAo3S5cRa6NvhP"
     },
     {
-        "id": 4,
+        "id": "Lamparas 4",
         "title": "Lámpara de macrame",
         "price": 5000,
         "description": "Lámpara de macrame con armazón de hierro pintado y soldado.  Realizado con hilo color crudo  y color fucsia combinado. Se utilizo nudo plano. ",

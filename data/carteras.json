@@ -1,35 +1,35 @@
 [
-    { "id": "cart1",
+    { "id": "Cartera 1",
         "price": 1500,
         "title": "Bolsito Macrame",
         "description": "Mide 20 x25 cm  con manija  50 cm realizado en hilo de polipropileno color crudo.  Con tiras de cuero marrón y hebilla de metal. Se utiliza nudo plano",
         "thumbnailUrl": "http://drive.google.com/uc?export=view&id=1l5BkTNdn7qcQlt7tsbNs_v8eYhaAa7uc"
 },
-{ "id": "cart2",
+{ "id": "Cartera 2",
     "price": 1500,
     "title": "Bolsito Macrame",
     "description": "Mide 25 X 20cm. Con la manija  50 cm. Realizado con hilo polipropileno color fucsia.  Con tiritas de charol y hebilla de metal. Se utiliza nudo plano y festón",
     "thumbnailUrl": "http://drive.google.com/uc?export=view&id=18sibn7StIpWIGt5n3-ZWIlxKgvtxT8nG"
 },
-{ "id": "cart3",
+{ "id": "Cartera 3",
     "price": 1200,
     "title": "Bolso Sobre",
     "description": "mide 25x20cm con manija 60cm. Realizado en hilo de polipropileno color violeta y blanco, con cuenta de madera. Se utiliza nudo plano y nudo cordón.",
-    "thumbnailUrl": "http://drive.google.com/uc?export=view&id=18sibn7StIpWIGt5n3-ZWIlxKgvtxT8nG"
+    "thumbnailUrl": "http://drive.google.com/uc?export=view&id=1UlW1Fswzr5JFbcLtu-xrinnQj8y0_oo3"
 },
-{ "id": "cart4",
+{ "id": "Cartera 4",
     "price": 1200,
     "title": "Bolso Sobre",
     "description": "mide 25x20 con manija 60cm. Realizado con hilo polipropileno blanco y violeta con cuenta de madera. Se utilizó nudo plano y nudo cordón.",
     "thumbnailUrl": "http://drive.google.com/uc?export=view&id=1sIHF0qy0IKXs4GL5_qf9iRkcHO8TMp57"
 },
-{ "id": "cart5",
+{ "id": "Cartera 5",
     "price": 2300,
     "title": "Bolso",
     "description": "mide 30x25cm, con manija 60cm. Realizado en hilo polipropileno de 4mm color crudo con cuentas de madera. Se utilizo nudo plano y nudo cordón",
     "thumbnailUrl": "http://drive.google.com/uc?export=view&id=1f1zQaeVEN-EStovyOV6DzEKWZNw2bSjX"
 },
-{ "id": "cart6",
+{ "id": "Cartera 6",
     "price": 2300,
     "title": "Bolso",
     "description": "mide 30x30cm, con manija 60cm. Realizado en hilo polipropileno de 4mm en color negro com cuentas de madera. Se utilizo nudo plano y nudo cordón.",

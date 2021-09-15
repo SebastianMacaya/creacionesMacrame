@@ -1,8 +1,30 @@
 [
     {
-        "id": 1,
-        "price": 0,
-        "description": "",
-        "img_url": ""
+        "id": "Sandalias 1",
+        "price": 2000,
+        "title": "Ojotas",
+        "description": "Realizadas con hilo cola de rata de distintos colores con cuentas de metal. Se utilizó nudo plano y nudo cordón. Base Baja",
+        "thumbnailUrl": "http://drive.google.com/uc?export=view&id=18bxXi4Kmf4Ch4KEfvWAGirJY_sjlJwMe"
+    },
+    {
+        "id": "Sandalias 2",
+        "price": 2000,
+        "title": "Ojotas",
+        "description": "Realizadas con hilo cola de rata de distintos colores con cuentas de metal. Se utilizó nudo plano y nudo cordón. Base Alta",
+        "thumbnailUrl": "http://drive.google.com/uc?export=view&id=177jz5fN70hyxpyp0WhaFuBftXbXts6f_"
+    },
+    {
+        "id": "Sandalias 3",
+        "price": 2500,
+        "title": "Sandalias cruzadas",
+        "description": "Realizadas con hilo cola de rata con tachas, forradas. Se utilizó nudo plano.",
+        "thumbnailUrl": "http://drive.google.com/uc?export=view&id=1PddiId25Ek5uFdqT547uRXwrjq4xIjoo"
+    },
+    {
+        "id": "Sandalias 4",
+        "price": 2300,
+        "title": "Sandalias de dos tiras",
+        "description": "Realizadas con hilo cola de rata con tachas. Se utilizó nudo plano.",
+        "thumbnailUrl": "http://drive.google.com/uc?export=view&id=1PddiId25Ek5uFdqT547uRXwrjq4xIjoo"
     }
 ]

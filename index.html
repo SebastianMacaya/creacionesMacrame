@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Amaru Macrame</title>
-    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="CSS/estilos.css" />
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../CSS/estilos.css" />
   </head>
   <body>
     <header>
@@ -15,7 +15,7 @@
         <a class="navbar-brand" href="index.html"
           ><img
             class="img-fluid"
-            src="./imagenes/logo/LOGO-HOR.jpg"
+            src="../imagenes/logo/LOGO-HOR.jpg"
             alt="logo amaru"
         /></a>
         <button
@@ -32,38 +32,68 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto w-100 justify-content-end">
-            <li class="nav-item active ">
+            <li class="nav-item active">
               <a class="nav-link borde" href="index.html"
                 >INICIO <span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="pages/quienesSomos.html"
-                >QUIÉNES SOMOS</a
-              >
+              <a class="nav-link " href="./pages/quienesSomos.html">QUIÉNES SOMOS</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="pages/catalogo.html">CATÁLOGO</a>
+
+                <a class="nav-link" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  CATÁLOGO
+                </a>
+              
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="pages/contacto.html">CONTACTO</a>
+              <a class="nav-link" href="./pages/contacto.html">CONTACTO</a>
             </li>
           </ul>
           <form class="form-inline my-2 my-lg-0">
             <input
-              class="form-control mr-sm-2 buscar border border-secondary rounded-0"
+              class="
+                form-control
+                mr-sm-2
+                buscar
+                border border-secondary
+                rounded-0
+              "
               type="search"
               placeholder="BUSCAR"
               aria-label="Search"
             />
             <input
               type="image"
-              src="imagenes/utilities/lupa.png"
+              src="../imagenes/utilities/lupa.png"
               class="imagen de lupa"
             />
           </form>
         </div>
       </nav>
+      <div class="collapse" id="collapseExample">
+        <div class="card card-body d-flex collapseNavBar">
+          <div class="row">
+         <div class="col-12 col-md-8 col-xl-4">
+           <ul>
+             <h3>PRODUCTOS</h3>
+             <li><a href="./pages/carteras.html">Carteras</a></li>
+             <li><a href="./pages/sandalias.html">Sandalias</a></li>
+             <li><a href="./pages/accesiorios.html">Accesorios</a></li>
+            </ul>
+         </div>
+         <div class="col-12 col-md-8 col-xl-4">
+           <ul>
+             <h3>DECO</h3>
+             <li><a href="./pages/portamacetas.html">Portamacetas</a></li>
+             <li><a href="./pages/tapices.html">Tapices</a></li>
+             <li><a href="./pages/lamparas.html">Lámparas</a></li>
+           </ul>
+         </div>
+        </div>
+        </div>
+      </div>
     </header>
     <!-- ----------------------------- fin navbar ------------------------------ -->
     <main>
