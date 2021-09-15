@@ -1,38 +1,38 @@
 [
-    { "id": 1,
+    { "id": "cart1",
         "price": 1500,
         "title": "Bolsito Macrame",
         "description": "Mide 20 x25 cm  con manija  50 cm realizado en hilo de polipropileno color crudo.  Con tiras de cuero marrón y hebilla de metal. Se utiliza nudo plano",
-        "img_url": "https://drive.google.com/file/d/1l5BkTNdn7qcQlt7tsbNs_v8eYhaAa7uc/view?usp=sharing"
+        "thumbnailUrl": "http://drive.google.com/uc?export=view&id=1l5BkTNdn7qcQlt7tsbNs_v8eYhaAa7uc"
 },
-{ "id": 2,
+{ "id": "cart2",
     "price": 1500,
     "title": "Bolsito Macrame",
     "description": "Mide 25 X 20cm. Con la manija  50 cm. Realizado con hilo polipropileno color fucsia.  Con tiritas de charol y hebilla de metal. Se utiliza nudo plano y festón",
-    "img_url": "https://drive.google.com/file/d/18sibn7StIpWIGt5n3-ZWIlxKgvtxT8nG/view?usp=sharing"
+    "thumbnailUrl": "http://drive.google.com/uc?export=view&id=18sibn7StIpWIGt5n3-ZWIlxKgvtxT8nG"
 },
-{ "id": 3,
+{ "id": "cart3",
     "price": 1200,
     "title": "Bolso Sobre",
     "description": "mide 25x20cm con manija 60cm. Realizado en hilo de polipropileno color violeta y blanco, con cuenta de madera. Se utiliza nudo plano y nudo cordón.",
-    "img_url": "https://drive.google.com/file/d/18sibn7StIpWIGt5n3-ZWIlxKgvtxT8nG/view?usp=sharing"
+    "thumbnailUrl": "http://drive.google.com/uc?export=view&id=18sibn7StIpWIGt5n3-ZWIlxKgvtxT8nG"
 },
-{ "id": 4,
+{ "id": "cart4",
     "price": 1200,
     "title": "Bolso Sobre",
     "description": "mide 25x20 con manija 60cm. Realizado con hilo polipropileno blanco y violeta con cuenta de madera. Se utilizó nudo plano y nudo cordón.",
-    "img_url": "https://drive.google.com/file/d/1sIHF0qy0IKXs4GL5_qf9iRkcHO8TMp57/view?usp=sharing"
+    "thumbnailUrl": "http://drive.google.com/uc?export=view&id=1sIHF0qy0IKXs4GL5_qf9iRkcHO8TMp57"
 },
-{ "id": 5,
+{ "id": "cart5",
     "price": 2300,
     "title": "Bolso",
     "description": "mide 30x25cm, con manija 60cm. Realizado en hilo polipropileno de 4mm color crudo con cuentas de madera. Se utilizo nudo plano y nudo cordón",
-    "img_url": "https://drive.google.com/file/d/1f1zQaeVEN-EStovyOV6DzEKWZNw2bSjX/view?usp=sharing"
+    "thumbnailUrl": "http://drive.google.com/uc?export=view&id=1f1zQaeVEN-EStovyOV6DzEKWZNw2bSjX"
 },
-{ "id": 6,
+{ "id": "cart6",
     "price": 2300,
     "title": "Bolso",
     "description": "mide 30x30cm, con manija 60cm. Realizado en hilo polipropileno de 4mm en color negro com cuentas de madera. Se utilizo nudo plano y nudo cordón.",
-    "img_url": "https://drive.google.com/file/d/15-PZTn7qvzvHCOX7e0Vf6FwDuYzVLIfH/view?usp=sharing"
+    "thumbnailUrl": "http://drive.google.com/uc?export=view&id=15-PZTn7qvzvHCOX7e0Vf6FwDuYzVLIfH"
 }
 ]

@@ -11,24 +11,32 @@ header {
   letter-spacing: 0.2rem;
   font-size: 12px;
 }
+
 header .navbar-nav {
   line-height: 14px;
 }
+
 header input {
   margin-left: 3.5rem;
 }
-header input[type=image] {
+
+header input[type="image"] {
   position: absolute;
   right: 2%;
 }
-header input[type=search] {
+
+header input[type="search"] {
   font-size: 12px;
 }
+
 header li {
   padding: 0 1.5rem;
 }
+
 header a.borde::after {
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   content: "";
   display: block;
   margin: auto;
@@ -44,14 +52,20 @@ header a.borde::after {
 
 .carousel-indicators {
   left: auto;
-  justify-content: auto;
+  -webkit-box-pack: auto;
+      -ms-flex-pack: auto;
+          justify-content: auto;
   margin: 0;
   padding: 0;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   list-style: none;
   right: 0px;
   top: 0%;
 }
+
 .carousel-indicators li {
   height: 20px;
   width: 20px;
@@ -59,24 +73,55 @@ header a.borde::after {
   background-color: black;
 }
 
+.collapseNavBar {
+  font-size: 12px;
+}
+
+.collapseNavBar ul {
+  list-style: none;
+  text-align: left;
+}
+
+.collapseNavBar h3 {
+  letter-spacing: 0.5rem;
+}
+
+.collapseNavBar li {
+  margin-top: 10px;
+}
+
+.collapseNavBar a {
+  color: #000000;
+}
+
+.collapseNavBar a:hover {
+  text-decoration: none;
+}
+
 footer {
   background-color: #F7F5F2;
   font-size: 12px;
   min-height: 151px;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   margin-top: auto;
   letter-spacing: 0.2rem;
 }
+
 footer ul {
   list-style: none;
   margin: auto;
 }
+
 footer a {
   color: #000000;
 }
+
 footer a:hover {
   text-decoration: none;
 }
+
 footer img {
   width: 30px;
   height: 30px;
@@ -85,11 +130,13 @@ footer img {
 .formMain {
   margin-top: 2%;
 }
+
 .formMain input {
   width: 90%;
   background-color: #ffeef1;
   border: none;
 }
+
 .formMain .sendButton {
   width: 50%;
   height: 14%;
@@ -100,16 +147,19 @@ footer img {
   letter-spacing: 0.2rem;
   border: none;
 }
+
 .formMain label {
   display: inline-block;
   letter-spacing: 0.2rem;
 }
+
 .formMain textarea {
   display: block;
   background-color: #ffeef1;
   resize: none;
   border: none;
 }
+
 .formMain .contactTextThree {
   font-size: 0.625rem;
 }
@@ -119,11 +169,17 @@ html {
 }
 
 body {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   min-height: 100%;
 }
 
 .fondoNavFoot {
   background-color: #f7f5f2;
-}/*# sourceMappingURL=estilos.css.map */
+}
+/*# sourceMappingURL=estilos.css.map */

@@ -53,3 +53,28 @@ header {
     background-color: black;
   }
 }
+
+
+.collapseNavBar {
+
+
+    font-size: 12px;
+        ul {
+            list-style: none;
+            text-align: left;
+            }
+            h3 {
+              letter-spacing: 0.5rem;
+            }
+              li {
+                margin-top: 10px;
+              }
+                a {
+                  color: #000000;;
+      
+                    &:hover {
+                      text-decoration: none;
+                    }
+                  }
+            
+}
