@@ -41,11 +41,16 @@
               <a class="nav-link" href="quienesSomos.html">QUIÉNES SOMOS</a>
             </li>
             <li class="nav-item">
-
-                <a class="nav-link" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                  CATÁLOGO
-                </a>
-              
+              <a
+                class="nav-link"
+                data-toggle="collapse"
+                href="#collapseExample"
+                role="button"
+                aria-expanded="false"
+                aria-controls="collapseExample"
+              >
+                CATÁLOGO
+              </a>
             </li>
             <li class="nav-item active">
               <a class="nav-link borde" href="contacto.html">CONTACTO</a>
@@ -75,23 +80,23 @@
       <div class="collapse" id="collapseExample">
         <div class="card card-body d-flex collapseNavBar">
           <div class="row">
-         <div class="col-12 col-md-8 col-xl-4">
-           <ul>
-             <h3>PRODUCTOS</h3>
-             <li><a href="carteras.html">Carteras</a></li>
-             <li><a href="sandalias.html">Sandalias</a></li>
-             <li><a href="accesiorios.html">Accesorios</a></li>
-            </ul>
-         </div>
-         <div class="col-12 col-md-8 col-xl-4">
-           <ul>
-             <h3>DECO</h3>
-             <li><a href="portamacetas.html">Portamacetas</a></li>
-             <li><a href="tapices.html">Tapices</a></li>
-             <li><a href="lamparas.html">Lámparas</a></li>
-           </ul>
-         </div>
-        </div>
+            <div class="col-12 col-md-8 col-xl-4">
+              <ul>
+                <h3>PRODUCTOS</h3>
+                <li><a href="carteras.html">Carteras</a></li>
+                <li><a href="sandalias.html">Sandalias</a></li>
+                <li><a href="accesiorios.html">Accesorios</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-8 col-xl-4">
+              <ul>
+                <h3>DECO</h3>
+                <li><a href="portamacetas.html">Portamacetas</a></li>
+                <li><a href="tapices.html">Tapices</a></li>
+                <li><a href="lamparas.html">Lámparas</a></li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </header>
@@ -107,20 +112,20 @@
     </p>
     <!-- ------------------------- formulario contacto ------------------------- -->
     <div class="d-flex justify-content-center align-content-center ml-5">
-      <form action="" class="d-flex formMain">
+      <form action="../contacto.php" method="POST" class="d-flex formMain">
         <div>
           <div class="flex-column">
             <div class="form-group">
-              <label for="name">Nombre y apellido <strong>*</strong></label>
-              <input type="text" id="name" autocomplete="off" required />
+              <label for="nombre">Nombre y apellido <strong>*</strong></label>
+              <input type="text" id="nombre" autocomplete="off" required />
             </div>
             <div class="form-group">
               <label for="mail">Mail<strong>*</strong></label>
               <input type="text" id="mail" autocomplete="off" required />
             </div>
             <div class="form-group">
-              <label for="tel">Telefono <strong>*</strong></label>
-              <input type="text" id="tel" required />
+              <label for="telefono">Telefono <strong>*</strong></label>
+              <input type="text" id="telefono" required />
             </div>
             <p class="contactTextThree">
               Los campos marcados con <strong>*</strong> son obligatorios
@@ -129,8 +134,8 @@
         </div>
         <div>
           <div>
-            <label for="msj">Mensaje <strong>*</strong></label>
-            <textarea id="msj" cols="45" rows="8" required></textarea>
+            <label for="mensaje">Mensaje <strong>*</strong></label>
+            <textarea id="mensaje" cols="45" rows="8" required></textarea>
           </div>
 
           <button type="submit" class="sendButton">ENVIAR</button>
