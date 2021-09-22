@@ -17,6 +17,12 @@ const fetchData = async () => {
       let misDatos = respuesta;
       const data = await misDatos;
       pintarCards(data);
+
+      $("#cards").click(() => {
+        alert(`${data.map((data) => data.id)}`);
+        pepe = data.title.split(",");
+        console.log(pepe);
+      });
     }
   });
 };
