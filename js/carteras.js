@@ -26,7 +26,6 @@ const pintarCards = (data) => {
   data.forEach((item) => {
     templateCard.querySelector("h5").textContent = item.title;
     templateCard.querySelector("p").textContent = `$${item.price}`;
-    templateCard.querySelector("button").dataset.id = item.id;
     templateCard.querySelector("img").setAttribute("src", item.thumbnailUrl);
 
     const clone = templateCard.cloneNode(true);
