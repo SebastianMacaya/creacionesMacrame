@@ -1,177 +1,117 @@
 <!DOCTYPE html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Amaru Macrame</title>
-    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="../CSS/estilos.css" />
-  </head>
-  <body>
-    <header>
-      <!-- ------------------------------- Navbar -------------------------------- -->
-      <nav class="navbar navbar-expand-lg navbar-light fondoNavFoot">
-        <a class="navbar-brand" href="index.html"
-          ><img
-            class="img-fluid"
-            src="../imagenes/logo/LOGO-HOR.jpg"
-            alt="logo amaru"
-        /></a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto w-100 justify-content-end">
-            <li class="nav-item">
-              <a class="nav-link" href="../index.html"
-                >INICIO <span class="sr-only">(current)</span></a
-              >
-            </li>
-            <li class="nav-item active">
-              <a class="nav-link borde" href="quienesSomos.html"
-                >QUIÉNES SOMOS</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                class="nav-link"
-                data-toggle="collapse"
-                href="#collapseExample"
-                role="button"
-                aria-expanded="false"
-                aria-controls="collapseExample"
-              >
-                CATÁLOGO
-              </a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contacto.html">CONTACTO</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input
-              class="
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Amaru Macrame</title>
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../CSS/estilos.css" />
+</head>
+
+<body>
+  <header>
+    <!-- ------------------------------- Navbar -------------------------------- -->
+    <nav class="navbar navbar-expand-lg navbar-light fondoNavFoot">
+      <a class="navbar-brand" href="index.html"><img class="img-fluid" src="../imagenes/logo/LOGO-HOR.jpg"
+          alt="logo amaru" /></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto w-100 justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">INICIO <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link borde" href="quienesSomos.html">QUIÉNES SOMOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false"
+              aria-controls="collapseExample">
+              CATÁLOGO
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacto.html">CONTACTO</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="
                 form-control
                 mr-sm-2
                 buscar
                 border border-secondary
                 rounded-0
-              "
-              type="search"
-              placeholder="BUSCAR"
-              aria-label="Search"
-            />
-            <input
-              type="image"
-              src="../imagenes/utilities/lupa.png"
-              class="imagen de lupa"
-            />
-          </form>
-        </div>
-      </nav>
-      <div class="collapse" id="collapseExample">
-        <div class="card card-body d-flex collapseNavBar">
-          <div class="row">
-            <div class="col-12 col-md-8 col-xl-4">
-              <ul>
-                <h3>PRODUCTOS</h3>
-                <li><a href="carteras.html">Carteras</a></li>
-                <li><a href="sandalias.html">Sandalias</a></li>
-                <li><a href="accesorios.html">Accesorios</a></li>
-              </ul>
-            </div>
-            <div class="col-12 col-md-8 col-xl-4">
-              <ul>
-                <h3>DECO</h3>
-                <li><a href="portamacetas.html">Portamacetas</a></li>
-                <li><a href="tapices.html">Tapices</a></li>
-                <li><a href="lamparas.html">Lámparas</a></li>
-              </ul>
-            </div>
+              " type="search" placeholder="BUSCAR" aria-label="Search" />
+          <input type="image" src="../imagenes/utilities/lupa.png" class="imagen de lupa" />
+        </form>
+      </div>
+    </nav>
+    <div class="collapse" id="collapseExample">
+      <div class="card card-body d-flex collapseNavBar">
+        <div class="row">
+          <div class="col-12 col-md-8 col-xl-4">
+            <ul>
+              <li><a class="title">PRODUCTOS</a></li>
+              <li><a href="carteras.html">Carteras</a></li>
+              <li><a href="sandalias.html">Sandalias</a></li>
+              <li><a href="accesorios.html">Accesorios</a></li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-8 col-xl-4">
+            <ul>
+              <li><a class="title">DECO</a></li>
+              <li><a href="portamacetas.html">Portamacetas</a></li>
+              <li><a href="tapices.html">Tapices</a></li>
+              <li><a href="lamparas.html">Lámparas</a></li>
+            </ul>
           </div>
         </div>
       </div>
-    </header>
-    <!-- ----------------------------- fin navbar ------------------------------ -->
-    <div class="container-fluid justify-content-center">
-      <div class="d-flex align-items-center row">
-        <div class="col-12 col-xl-6">
-          <img class="img-fluid" src="../imagenes/qs.jpg" alt="nosotros" />
-        </div>
-        <div class="col-12 col-xl-6">
-          <p class="text-left">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et illum,
-            nam exercitationem dicta modi dignissimos mollitia dolorum sed
-            voluptatibus? Voluptatem sit sequi praesentium expedita vero nam
-            quasi nihil ut cumque. Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Suscipit blanditiis obcaecati iusto sit
-            perferendis magni architecto voluptas assumenda velit deleniti odio,
-            aut quae necessitatibus id neque? Nobis odit vel laborum. Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-            voluptatibus nam, obcaecati sunt in libero modi, laborum voluptatum
-            alias perferendis molestiae doloribus tempore, eos iure esse illo
-            iusto recusandae id.
-            <b
-              >Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Explicabo debitis, quis omnis distinctio quasi et unde tempore
-              eveniet quae aliquid sapiente quas, repellendus enim deserunt
-              pariatur quibusdam laudantium cupiditate laboriosam.</b
-            >
-          </p>
-          <p class="text-left">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et illum,
-            nam exercitationem dicta modi dignissimos mollitia dolorum sed
-            voluptatibus? Voluptatem sit sequi praesentium expedita vero nam
-            quasi nihil ut cumque. Lorem ipsum dolor sit, amet consectetur
-            adipisicing elit. Suscipit blanditiis obcaecati iusto sit
-            perferendis magni architecto voluptas assumenda velit deleniti odio,
-            aut quae necessitatibus id neque? Nobis odit vel laborum. Lorem
-            ipsum dolor sit amet consectetur adipisicing elit. Accusamus
-            voluptatibus nam, obcaecati sunt in libero modi, laborum voluptatum
-            alias perferendis molestiae doloribus tempore, eos iure esse illo
-            iusto recusandae id. Lorem ipsum dolor sit amet consectetur
-            adipisicing elit. Explicabo debitis, quis omnis distinctio quasi et
-            unde tempore eveniet quae aliquid sapiente quas, repellendus enim
-            deserunt pariatur quibusdam laudantium cupiditate laboriosam.
-          </p>
-        </div>
+    </div>
+  </header>
+  <!-- ----------------------------- fin navbar ------------------------------ -->
+  <div class="container justify-content-between">
+    <div class="d-flex align-items-center row">
+      <div class="col-12 col-xl-6">
+        <img class="img-fluid" src="../imagenes/qs.png" alt="nosotros" />
+      </div>
+      <div class="col-12 col-xl-6">
+        <p class="text-left">
+          Mi nombre es Claudia, realizo artesanías de macrame. Para los que no saben, el macrame es una artesanía amplia
+          donde se realizan objetos a partir de la combinación de distintos tipos de nudos, utilizando diferentes hilos.
+          Mis creaciones van desde objetos para la decoración del hogar hasta accesorios para vestir. Son productos
+          totalmente originales ya que los diseño y creo yo misma.
+          Este proyecto comenzó en el año 2021. Poco a poco me fui animando, con dudas y miedos, pero con mucha
+          iniciativa de crecer y aprender en este hermoso mundo del emprendimiento.
+        </p>
       </div>
     </div>
-    <!-- ------------------------------- Footer -------------------------------- -->
-    <footer class="d-flex justify-content-between fondoNavFoot">
-      <div>
-        <ul>
-          <li><a href="#">QUIÉNES SOMOS</a></li>
-          <li><a href="#">CATÁLOGO</a></li>
-          <li><a href="#">CONTACTO</a></li>
-        </ul>
+  </div>
+  <!-- ------------------------------- Footer -------------------------------- -->
+  <footer class="d-flex justify-content-between fondoNavFoot">
+    <div>
+      <ul>
+        <li><a href="#">QUIÉNES SOMOS</a></li>
+        <li><a href="#">CATÁLOGO</a></li>
+        <li><a href="#">CONTACTO</a></li>
+      </ul>
+    </div>
+    <div class="mr-3">
+      <p>SEGUINOS</p>
+      <div class="text-center">
+        <a href="#"><img src="../imagenes/utilities/instagram.png" alt="instagram" /></a>
+        <a href="#"><img src="../imagenes/utilities/simbolo-de-la-aplicacion-de-facebook.png" alt="facebook" /></a>
       </div>
-      <div class="mr-3">
-        <p>SEGUINOS</p>
-        <div class="text-center">
-          <a href="#"
-            ><img src="../imagenes/utilities/instagram.png" alt="instagram"
-          /></a>
-          <a href="#"
-            ><img
-              src="../imagenes/utilities/simbolo-de-la-aplicacion-de-facebook.png"
-              alt="facebook"
-          /></a>
-        </div>
-      </div>
-    </footer>
-    <!-- ---------------------------- Fin de Footer ---------------------------- -->
-    <script src="../bootstrap/js/jquery-3.5.1.slim.min.js"></script>
-    <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
-  </body>
+    </div>
+  </footer>
+  <!-- ---------------------------- Fin de Footer ---------------------------- -->
+  <script src="../bootstrap/js/jquery-3.5.1.slim.min.js"></script>
+  <script src="../bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>

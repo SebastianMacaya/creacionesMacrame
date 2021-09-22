@@ -82,20 +82,30 @@ header a.borde::after {
   text-align: left;
 }
 
-.collapseNavBar h3 {
-  letter-spacing: 0.5rem;
-}
-
 .collapseNavBar li {
   margin-top: 10px;
 }
 
 .collapseNavBar a {
   color: #000000;
+  padding: 0 1.5rem;
 }
 
 .collapseNavBar a:hover {
   text-decoration: none;
+}
+
+.collapseNavBar a.title {
+  letter-spacing: 0.5rem;
+}
+
+.bread {
+  letter-spacing: 0.25rem;
+}
+
+.bread a {
+  color: black;
+  font-size: 12px;
 }
 
 footer {

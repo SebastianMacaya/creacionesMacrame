@@ -63,18 +63,28 @@ header {
             list-style: none;
             text-align: left;
             }
-            h3 {
-              letter-spacing: 0.5rem;
-            }
+            
               li {
                 margin-top: 10px;
+
               }
                 a {
-                  color: #000000;;
-      
+                  color: #000000;
+                  padding: 0 1.5rem;
                     &:hover {
                       text-decoration: none;
                     }
+                    &.title {
+                      letter-spacing: 0.5rem;
+                    }
                   }
             
+}
+
+.bread {
+  letter-spacing: 0.25rem;
+  a {
+color: black;
+font-size: 12px;
+  }
 }
