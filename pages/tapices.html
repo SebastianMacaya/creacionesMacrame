@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amaru Macrame</title>
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../CSS/estilos.css" />
+  </head>
+  <body>
+    <header>
+      <!-- ------------------------------- Navbar -------------------------------- -->
+      <nav class="navbar navbar-expand-lg navbar-light fondoNavFoot">
+        <a class="navbar-brand" href="index.html"
+          ><img
+            class="img-fluid"
+            src="../imagenes/logo/LOGO-HOR.jpg"
+            alt="logo amaru"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto w-100 justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html"
+                >INICIO <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="quienesSomos.html">QUIÉNES SOMOS</a>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link borde"
+                data-toggle="collapse"
+                href="#collapseExample"
+                role="button"
+                aria-expanded="false"
+                aria-controls="collapseExample"
+              >
+                CATÁLOGO
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contacto.html">CONTACTO</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input
+              class="
+                form-control
+                mr-sm-2
+                buscar
+                border border-secondary
+                rounded-0
+              "
+              type="search"
+              placeholder="BUSCAR"
+              aria-label="Search"
+            />
+            <input
+              type="image"
+              src="../imagenes/utilities/lupa.png"
+              class="imagen de lupa"
+            />
+          </form>
+        </div>
+      </nav>
+      <div class="collapse" id="collapseExample">
+        <div class="card card-body d-flex collapseNavBar">
+          <div class="row">
+            <div class="col-12 col-md-8 col-xl-4">
+              <ul>
+                <li><a class="title">PRODUCTOS</a></li>
+                <li><a href="carteras.html">Carteras</a></li>
+                <li><a href="sandalias.html">Sandalias</a></li>
+                <li><a href="accesorios.html">Accesorios</a></li>
+              </ul>
+            </div>
+            <div class="col-12 col-md-8 col-xl-4">
+              <ul>
+                <li><a class="title">DECO</a></li>
+                <li><a href="portamacetas.html">Portamacetas</a></li>
+                <li><a href="tapices.html">Tapices</a></li>
+                <li><a href="lamparas.html">Lámparas</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- ----------------------------- fin navbar ------------------------------ -->
+    <nav aria-label="breadcrumb" class="bread">
+      <ol class="breadcrumb bg-white pl-5">
+        <li class="breadcrumb-item"><a href="../index.html">INICIO</a></li>
+        <li class="breadcrumb-item"><a>DECO</a></li>
+        <li class="breadcrumb-item"><a>TAPICES</a></li>
+      </ol>
+    </nav>
+    <div class="container mt-3">
+      <div class="row" id="cards"></div>
+      <table class="table">
+        <tbody id="items"></tbody>
+        <!-- -------------------------------- modal -------------------------------- -->
+        <div id="miModal" class="modal fade" role="dialog">
+          <div class="modal-dialog">
+            <!-- Contenido del modal -->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">
+                  &times;
+                </button>
+              </div>
+              <div class="modal-body">
+                <p class="modalTitle">Title</p>
+                <img src="" alt="" class="card-img-top modalImage" />
+                <p class="modalDescription"></p>
+                <p class="modalPrice"></p>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-success"
+                  data-dismiss="modal"
+                >
+                  Cerrar
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </table>
+    </div>
+    <div id="pepe"></div>
+    <!--Template Cards-->
+    <template id="template-card">
+      <div class="col-12 mb-2 col-md-4">
+        <div class="card">
+          <img src="" alt="" class="card-img-top" />
+          <div class="card-body">
+            <h5>Titulo</h5>
+            <p>precio</p>
+          </div>
+        </div>
+      </div>
+    </template>
+
+    <!-- ------------------------------- Footer -------------------------------- -->
+    <footer class="d-flex justify-content-between fondoNavFoot">
+      <div>
+        <ul>
+          <li><a href="#">QUIÉNES SOMOS</a></li>
+          <li><a href="#">CATÁLOGO</a></li>
+          <li><a href="#">CONTACTO</a></li>
+        </ul>
+      </div>
+      <div class="mr-3">
+        <p>SEGUINOS</p>
+        <div class="text-center">
+          <a href="#"
+            ><img src="../imagenes/utilities/instagram.png" alt="instagram"
+          /></a>
+          <a href="#"
+            ><img
+              src="../imagenes/utilities/simbolo-de-la-aplicacion-de-facebook.png"
+              alt="facebook"
+          /></a>
+        </div>
+      </div>
+    </footer>
+    <!-- ---------------------------- Fin de Footer ---------------------------- -->
+    <!-- ------------ jQuery and Bootstrap Bundle (includes Popper) ------------ -->
+    <script src="../bootstrap/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.bundle.min.js" defer></script>
+    <!-- ------------------------------- Jquery -------------------------------- -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <!-- ------------------------------- script -------------------------------- -->
+
+    <script src="../js/tapices.js"></script>
+    <!-- ----------------------------- sweetalert ------------------------------ -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
+</html>
