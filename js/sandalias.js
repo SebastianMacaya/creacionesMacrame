@@ -17,11 +17,16 @@ const fetchData = async () => {
       let misDatos = respuesta;
       const data = await misDatos;
       pintarCards(data);
-
       $("#cards").click(() => {
-        alert(`${data.map((data) => data.id)}`);
-        pepe = data.title.split(",");
-        console.log(pepe);
+        card = data.filter((data) => data.id);
+        let valores = Object.values(card);
+
+        var hijos = cards.childNodes.div;
+        console.log(hijos);
+        $("#miModal").modal("show");
+        //pintarModal(data);
+        console.log(valores[0]);
+        pintarModalNew(valores[0]);
       });
     }
   });
@@ -38,4 +43,26 @@ const pintarCards = (data) => {
     fragment.appendChild(clone);
   });
   cards.appendChild(fragment);
+};
+
+const pintarModal = (data) => {
+  for (item of data) {
+    document
+      .querySelector(".modalImage")
+      .setAttribute("src", item.thumbnailUrl);
+    document.querySelector(".modalTitle").textContent = item.title;
+    document.querySelector(".modalPrice").textContent = `$${item.price}`;
+    document.querySelector(
+      ".modalDescription"
+    ).textContent = `${item.description}`;
+  }
+};
+
+const pintarModalNew = (item) => {
+  document.querySelector(".modalImage").setAttribute("src", item.thumbnailUrl);
+  document.querySelector(".modalTitle").textContent = item.title;
+  document.querySelector(".modalPrice").textContent = `$${item.price}`;
+  document.querySelector(
+    ".modalDescription"
+  ).textContent = `${item.description}`;
 };
