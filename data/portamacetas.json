@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "price": 600,
+        "title": "Portamacetas",
+        "description": "Realizado en hilo de polipropileno color amarillo. Se utiliza nudo plano y nudo espiral.  Con cuenta de maderas. Mide 86cm de largo, con aros de plástico  de 19 cm.",
+        "thumbnailUrl": "http://drive.google.com/uc?export=view&id=1qILkl7UnTpl3hXiFbxDehWT7rfVEkRT7"
+    },
+    {
+        "id": 2,
+        "price": 400,
+        "title": "Portamacetas",
+        "description": "Mide 77cm de largo con cuenta de madera.  Realizado en nudo plano y  nudo alondra",
+        "thumbnailUrl": "http://drive.google.com/uc?export=view&id=1mwfccxqxZ5B08m18SljCcGikNCPy0CtD"
+    },
+    {
+        "id": 3,
+        "price": 450,
+        "title": "Portamacetas",
+        "description": "Realizadas con hilo cola de rata de distintos colores con cuentas de metal. Se utilizó nudo plano y nudo cordón. Base Baja",
+        "thumbnailUrl": "http://drive.google.com/uc?export=view&id=1CHyQTMGL_INKjH4onx1n6Hqow97Rmx9J"
+    },
+    {
+        "id": 4,
+        "price": 450,
+        "title": "Portamacetas",
+        "description": "hecho con hilo de polipropileno de 4mm color violeta se utiliza nudo festón y nudo plano con cuenta de madera. Mide 30 cm largo. ",
+        "thumbnailUrl": "http://drive.google.com/uc?export=view&id=1LVo5Ate6vMD82UgBguvkZOBVaDYxsNhj"
+    }
+]

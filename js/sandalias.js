@@ -17,16 +17,21 @@ const fetchData = async () => {
       let misDatos = respuesta;
       const data = await misDatos;
       pintarCards(data);
+
+      $("#cards").click(function () {
+        $("#miModal").modal("show");
+
+        alert($(this).attr("id"));
+      });
+
       $("#cards").click(() => {
         card = data.filter((data) => data.id);
         let valores = Object.values(card);
 
-        var hijos = cards.childNodes.div;
-        console.log(hijos);
         $("#miModal").modal("show");
         //pintarModal(data);
         console.log(valores[0]);
-        pintarModalNew(valores[0]);
+        pintarModalNew(valores[1]);
       });
     }
   });
