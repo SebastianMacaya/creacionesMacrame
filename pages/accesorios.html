@@ -56,25 +56,6 @@
               <a class="nav-link" href="contacto.html">CONTACTO</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input
-              class="
-                form-control
-                mr-sm-2
-                buscar
-                border border-secondary
-                rounded-0
-              "
-              type="search"
-              placeholder="BUSCAR"
-              aria-label="Search"
-            />
-            <input
-              type="image"
-              src="../imagenes/utilities/lupa.png"
-              class="imagen de lupa"
-            />
-          </form>
         </div>
       </nav>
       <div class="collapse" id="collapseExample">
@@ -116,17 +97,24 @@
     </div>
 
     <!--Template Cards-->
-    <template id="template-card">
+    <template id="template-card" >
       <div class="col-12 mb-2 col-md-4">
         <div>
           <img src="" alt="" class="card-img-top" />
           <div class="card-body">
             <h5>Titulo</h5>
             <p>precio</p>
+            <a class="btn rounded-0 fondoNavFoot" data-toggle="collapse" href="#infoProd" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Ver más
+            </a>
+            <div class="collapse" id="infoProd">
+              <h6 class="card card-body mt-3">
+              </h6>
           </div>
         </div>
       </div>
     </template>
+
 
     <!-- ------------------------------- Footer -------------------------------- -->
     <footer class="d-flex justify-content-between fondoNavFoot">

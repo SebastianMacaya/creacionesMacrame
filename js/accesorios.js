@@ -27,9 +27,10 @@ const pintarCards = (data) => {
     templateCard.querySelector("h5").textContent = item.title;
     templateCard.querySelector("p").textContent = `$${item.price}`;
     templateCard.querySelector("img").setAttribute("src", item.thumbnailUrl);
-
+    templateCard.querySelector("h6").textContent = item.description
     const clone = templateCard.cloneNode(true);
     fragment.appendChild(clone);
   });
   cards.appendChild(fragment);
+  pintarModalNew(data)
 };

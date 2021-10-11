@@ -18,21 +18,30 @@ const fetchData = async () => {
       const data = await misDatos;
       pintarCards(data);
 
-      $("#cards").click(function () {
-        $("#miModal").modal("show");
+      // $("#cards").click(function () {
+      //   $("#miModal").modal("show");
 
-        alert($(this).attr("id"));
-      });
+      //   pintarModalNew($(this).attr("id"));
+      // });
 
-      $("#cards").click(() => {
-        card = data.filter((data) => data.id);
-        let valores = Object.values(card);
+      // $("#cards").click(() => {
+      //   card = data.filter((data) => data.target.getAttribute("id"));
+      //   let valores = Object.values(card);
 
-        $("#miModal").modal("show");
-        //pintarModal(data);
-        console.log(valores[0]);
-        pintarModalNew(valores[1]);
-      });
+      //   $("#miModal").modal("show");
+      //   //pintarModal(data);
+      //   // console.log(valores[0]);
+      //   pintarModalNew(this.valores);
+      // });
+
+      // let cardSelect = document.querySelectorAll("#cards");
+      // for(let i = 0; i < cardSelect.length; i++){
+      //   cardSelect[0].addEventListener("click", function(e){
+      //     let self = e.target
+      //     console.log(self)
+
+      //   })
+      // }
     }
   });
 };
@@ -43,31 +52,32 @@ const pintarCards = (data) => {
     templateCard.querySelector("h5").textContent = item.title;
     templateCard.querySelector("p").textContent = `$${item.price}`;
     templateCard.querySelector("img").setAttribute("src", item.thumbnailUrl);
-
+    templateCard.querySelector("h6").textContent = item.description
     const clone = templateCard.cloneNode(true);
     fragment.appendChild(clone);
   });
   cards.appendChild(fragment);
+  pintarModalNew(data)
 };
 
-const pintarModal = (data) => {
-  for (item of data) {
-    document
-      .querySelector(".modalImage")
-      .setAttribute("src", item.thumbnailUrl);
-    document.querySelector(".modalTitle").textContent = item.title;
-    document.querySelector(".modalPrice").textContent = `$${item.price}`;
-    document.querySelector(
-      ".modalDescription"
-    ).textContent = `${item.description}`;
-  }
-};
+// const pintarModal = (data) => {
+//   for (item of data) {
+//     document
+//       .querySelector(".modalImage")
+//       .setAttribute("src", item.thumbnailUrl);
+//     document.querySelector(".modalTitle").textContent = item.title;
+//     document.querySelector(".modalPrice").textContent = `$${item.price}`;
+//     document.querySelector(
+//       ".modalDescription"
+//     ).textContent = `${item.description}`;
+//   }
+// };
 
-const pintarModalNew = (item) => {
-  document.querySelector(".modalImage").setAttribute("src", item.thumbnailUrl);
-  document.querySelector(".modalTitle").textContent = item.title;
-  document.querySelector(".modalPrice").textContent = `$${item.price}`;
-  document.querySelector(
-    ".modalDescription"
-  ).textContent = `${item.description}`;
-};
+// const pintarModalNew = (item) => {
+//   document.querySelector(".modalImage").setAttribute("src", item.thumbnailUrl);
+//   document.querySelector(".modalTitle").textContent = item.title;
+//   document.querySelector(".modalPrice").textContent = `$${item.price}`;
+//   document.querySelector(
+//     ".modalDescription"
+//   ).textContent = `${item.description}`;
+// };

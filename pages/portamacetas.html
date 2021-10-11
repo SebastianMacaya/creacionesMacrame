@@ -56,25 +56,6 @@
               <a class="nav-link" href="contacto.html">CONTACTO</a>
             </li>
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input
-              class="
-                form-control
-                mr-sm-2
-                buscar
-                border border-secondary
-                rounded-0
-              "
-              type="search"
-              placeholder="BUSCAR"
-              aria-label="Search"
-            />
-            <input
-              type="image"
-              src="../imagenes/utilities/lupa.png"
-              class="imagen de lupa"
-            />
-          </form>
         </div>
       </nav>
       <div class="collapse" id="collapseExample">
@@ -112,45 +93,21 @@
       <div class="row" id="cards"></div>
       <table class="table">
         <tbody id="items"></tbody>
-        <!-- -------------------------------- modal -------------------------------- -->
-        <div id="miModal" class="modal fade" role="dialog">
-          <div class="modal-dialog">
-            <!-- Contenido del modal -->
-            <div class="modal-content">
-              <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal">
-                  &times;
-                </button>
-              </div>
-              <div class="modal-body">
-                <p class="modalTitle">Title</p>
-                <img src="" alt="" class="card-img-top modalImage" />
-                <p class="modalDescription"></p>
-                <p class="modalPrice"></p>
-              </div>
-              <div class="modal-footer">
-                <button
-                  type="button"
-                  class="btn btn-success"
-                  data-dismiss="modal"
-                >
-                  Cerrar
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </table>
-    </div>
-    <div id="pepe"></div>
+    
     <!--Template Cards-->
-    <template id="template-card">
+    <template id="template-card" >
       <div class="col-12 mb-2 col-md-4">
-        <div class="card">
+        <div>
           <img src="" alt="" class="card-img-top" />
           <div class="card-body">
             <h5>Titulo</h5>
             <p>precio</p>
+            <a class="btn rounded-0 fondoNavFoot" data-toggle="collapse" href="#infoProd" role="button" aria-expanded="false" aria-controls="collapseExample">
+              Ver más
+            </a>
+            <div class="collapse" id="infoProd">
+              <h6 class="card card-body mt-3">
+              </h6>
           </div>
         </div>
       </div>
