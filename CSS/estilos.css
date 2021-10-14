@@ -16,19 +16,6 @@ header .navbar-nav {
   line-height: 14px;
 }
 
-header input {
-  margin-left: 3.5rem;
-}
-
-header input[type="image"] {
-  position: absolute;
-  right: 2%;
-}
-
-header input[type="search"] {
-  font-size: 12px;
-}
-
 header li {
   padding: 0 1.5rem;
 }
