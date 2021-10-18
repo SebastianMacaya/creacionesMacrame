@@ -5,5 +5,26 @@
         "title": "Tapiz",
         "description": "Realizado en hilo de polipropileno en color beige, fucsia y violeta. Con cuenta de madera. Los hilos están sostenidos por una caña.  Mide  68 cm.  Se utilizo nudo festón y nudo plano.",
         "thumbnailUrl": "http://drive.google.com/uc?export=view&id=1P0Ic4q7-aEievcQtRzUxMbjbSevhSru9"
+    },
+    {
+        "id": 2,
+        "price": 450,
+        "title": "Tapiz",
+        "description": "Mandala:  Realizado en macrame y fibro fácil. Se realizo con hilo cola de rata.  Color salmón y beige  con cuentas de metal. Se utiliza nudo festón",
+        "thumbnailUrl": "http://drive.google.com/uc?export=view&id=1_OnT4-zC0kcNONwl60IoAZ6kJp3OSRiB"
+    },
+    {
+        "id": 3,
+        "price": 650,
+        "title": "Tapiz",
+        "description": "Infinito:  Realizado en fibrofacil y macrame. Palabra te amo con el símbolo del infinito. Se utilizo hilo cola de rata de color negro y cuentas de metal con nudo plano y festón. $650",
+        "thumbnailUrl": "http://drive.google.com/uc?export=view&id=1w8OtgK53W4baLPqJ4dWuTt2rFDAIw_67"
+    },
+    {
+        "id": 4,
+        "price": 1500,
+        "title": "Tapiz",
+        "description": "Árbol de la vida: Realizado con hilo cola de rata en blanco y detalles con hilo color rosa. Se utiliza nudo festón para hacer las hojas, nudo espiral para hacer las ramas y nudo plano para hacer el tronco. Abajo detalles con cuentas de metal y listones de color rosa. Mide 90cm",
+        "thumbnailUrl": "http://drive.google.com/uc?export=view&id=1JLLDBJM12Fu3Vi_KuxpPQhW_iTBNRNZP"
     }
 ]
